@@ -1,0 +1,24 @@
+{
+  "name": "pikmin",
+  "version": "1.0.0",
+  "author": "Daniel Munoz <daniel.munozdev@gmail.com>",
+  "private": true,
+  "description": "website made with pug",
+  "main": "app.js",
+  "scripts": {
+    "start": "grunt publish & node app.js",
+    "dev": "grunt & nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "nodemon": "^1.18.9"
+  }
+}
